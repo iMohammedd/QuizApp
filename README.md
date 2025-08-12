@@ -1,4 +1,4 @@
-# animation
+# QuizApp
 
 A new Flutter project.
 
