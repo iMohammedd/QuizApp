@@ -73,7 +73,9 @@ class Qustionsammury extends StatelessWidget {
                           height: 40,
                           width: 40,
                           decoration: BoxDecoration(
-                            color: Colors.white.withOpacity(0.3),
+                            color: data["choosenAnswers"] == data["answer"]
+                                ? Colors.green.withOpacity(0.8)
+                                : Colors.red.withOpacity(0.8), ////Color
                             borderRadius: BorderRadius.circular(10),
                           ),
                           margin: EdgeInsets.symmetric(vertical: 10),

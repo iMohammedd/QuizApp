@@ -21,7 +21,6 @@ class _QuistionsScreenState extends State<QuistionsScreen> {
   void answerQuistion(String answer) {
     currentquistionindex++;
     widget.onselectedAnswer(answer);
-    print(currentquistionindex);
     setState(() {});
   }
 
